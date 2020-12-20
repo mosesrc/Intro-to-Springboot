@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #fff;
+    color: rgb(41, 41, 41);
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+/*----- Navigation Bars -----*/
+
+ .navBar {
+    padding: 0;
+ }
+
+ .navBottom {
+   margin: 10px 0;
+ }
+
+ /*----- Headings -----*/
+
+ .header {
+    padding: 0;
+    margin-left: 5px;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+ }
+
+  /*----- Image -----*/
+
+  .img-background {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(167, 167, 167, 0.686), rgba(167, 167, 167, 0.686)), url(https://earthsky.org/upl/2018/06/ocean-apr27-2020-Cidy-Chai-North-Pacific-scaled-e1591491800783.jpeg);
+    border-image-width: 100%;
+    background-attachment: fixed;
+    height: 500px;
+    text-align: center;
+  }
+
+
+/*----- form -----*/
+
+.section-form {
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.section-form div, form {
+  color: black;
+  margin: 0 25px;
+  
+}
+
+section-form {
+  padding: 80px 80px;
+} 
+
+.section-one p {
+    box-sizing: border-box;
+    margin: 5px 80px;
+  }
+
+.section-one h2 {
+    margin-top: 7px;
+}
+
+.row input {
+	padding-left: 5px;
+}
+
+/*----- Image beside Form -----*/
+
+.fishIMG {
+  float: right;
+  height: 100%;
+  width: 400px;
+  
+}
+
+/*----- General -----*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+img {
+    width: auto;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    display: grid;
+}
+
